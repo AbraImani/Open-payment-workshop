@@ -1,0 +1,12 @@
+[package]
+name = "open-payments-workshop-rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+
+[dependencies]
+open-payments = "0.1.1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+dotenv = "0.15"
+serde_json = "1"
+url = "2"
